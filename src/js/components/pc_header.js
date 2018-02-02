@@ -13,7 +13,7 @@ export default class PCHeader extends React.Component{
 	}
 
 	handleClick(e) {
-		this.setState({	
+		this.setState({
 			current: e.key,
 		});
 	}

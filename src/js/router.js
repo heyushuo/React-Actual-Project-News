@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-
+import "antd/dist/antd.css"
+import PCIndex from './components/pc_index'
 export default class Root extends React.Component{
 	render(){
 		return (
 			<div>
-				<h1>我是项目的入口文件</h1>
+				<PCIndex/>
 			</div>
 		)
 	}

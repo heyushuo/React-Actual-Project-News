@@ -25,18 +25,18 @@ export default class PCHeader extends React.Component{
 
 	}
 	//弹出框开始
-	const showModal=() => {
+	showModal=() => {
 		this.setState({
 			visible: true,
 		});
 	}
-	const handleOk=(e) => {
+	handleOk=(e) => {
 		console.log(e);
 		this.setState({
 			visible: false,
 		});
 	}
-	const handleCancel=(e) => {
+	handleCancel=(e) => {
 		console.log(e);
 		this.setState({
 			visible: false,
